@@ -16,7 +16,7 @@ management:
         include: "*"
 
 foo:
-  foo version 2
+  foo version 8
 democonfigclient:
   message:
     hello spring io
