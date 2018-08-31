@@ -1,5 +1,3 @@
-foo = foo version 2
-
 spring:
   application:
     name: config-client
@@ -17,5 +15,8 @@ management:
       exposure:
         include: "*"
 
-foo = foo version 2
-democonfigclient.message=hello spring io
+foo:
+  foo version 2
+democonfigclient:
+  message:
+    hello spring io
